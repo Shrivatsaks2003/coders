@@ -36,7 +36,7 @@ body::before {
 }
 
 header {
-    background-color:  #000000;
+  background-image: linear-gradient(to bottom right,rgb(39, 122, 0), rgb(10, 60, 4)  );
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -45,7 +45,7 @@ header {
 }
 
 .sticky {
-    background-color: #fff;
+    background-color: #2e6603;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -110,7 +110,7 @@ header {
 }
 
 .main_nav ul li a {
-    color: #65b917cc;
+    color: #78b802;
     text-decoration: none;
     transition: opacity 0.3s, background-color 0.3s;
     padding: 10px 20px;
@@ -119,8 +119,8 @@ header {
 
 .main_nav ul li a:hover {
     opacity: 0.7;
-    background-color: #3f6c0bf9;
-    color: #d2f95cb6;
+    color: #3f6c0bf9;
+    background-color: #d2f95cb6;
 }
 
 @media (max-width: 768px) {
